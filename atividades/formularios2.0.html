@@ -7,6 +7,8 @@
     <title>Formulário</title>
 </head>
 <body>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
     <form action="">
     <div>
     <label for="nome">Nome: </label>
@@ -17,7 +19,66 @@
         <label for="end">Endereço: </label>
         <input type="text" name="end" id="end" required>
     </div>
+    <br>
+    <div>
+        <label for="city">Cidade: </label>
+        <input type="text" name="city" id="city" required>
+    </div>
+    <br>
+    <div>
+        <label for="">Estado</label>
+        <select name="opc" id="opc">
+            <option value="sp">São Paulo</option>
+            <option value="es">Espírito Santo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="rs">Rio Grande do Sul</option>
+        </select>
+    </div>
     </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <div>
+            <label for="">Natureza do Cargo</label>
+            <br>
+            <input type="radio" name="cargo" id="ger" checked>
+            <label for="ger">Gerência</label>
+            <input type="radio" name="cargo" id="fin">
+            <label for="fin">Financeiro</label>
+            <input type="radio" name="cargo" id="rec">
+            <label for="rec">Recepção</label>
+            <input type="radio" name="cargo" id="adm">
+            <label for="adm">Administrativo</label>
+            <input type="radio" name="cargo" id="jur">
+            <label for="jur">Jurídico</label>
+            </div>
+            <br>
+            <div>
+                <label for="">Área de Interesse</label>
+                <br>
+                <input type="checkbox" name="cp" id="cp">
+                <label for="cp">Computação</label>
+                <input type="checkbox" name="bio" id="bio">
+                <label for="bio">Biologia</label>
+                <input type="checkbox" name="ma" id="ma">
+                <label for="ma">Meio Ambiente</label>
+                <input type="checkbox" name="eng" id="eng">
+                <label for="eng">Engenharia</label>
+                <input type="checkbox" name="hist" id="hist">
+                <label for="hist">História</label>
+            </div>
+            <br>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mini-Currículo"></textarea>
+            </div>
+    </fieldset>
+    <br>
+    <div>
+        <input type="submit" value="Enviar" required>
+        <input type="submit" value="Limpar" required>
+    </div>
     <a href="../index.html"><img src="../imagens/seta.png" alt=""></a>
 </body>
 </html>
