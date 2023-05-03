@@ -8,15 +8,25 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <form action="" method="">
+    <form action="formulario.php" method="POST">
         <div>
-            <label for="nome_usuario">Nome: </label> <!-- Label insere um rótulo-->
-            <input type="text" name="nome_usuario" id="nome_usuario" size="35" maxlength="20" minlength="3" required> <!-- text é um campo de entrada de texto-->
+            <label for="nome_usuario">Nome: </label>
+            <br> <!-- Label insere um rótulo-->
+            <input type="text" name="nome_usuario" id="nome_usuario" size="35" maxlength="30" minlength="3" placeholder="Digite seu nome" required> <!-- text é um campo de entrada de texto-->
         </div>
         <br>
         <div>
             <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha" size="35" maxlength="20" minlength="5" required>
+            <br>
+            <input type="password" name="senha" id="senha" size="35" maxlength="30" minlength="5" placeholder="Digite sua senha" required>
+        </div>
+        <br>
+        <div>
+            <div>
+                <label for="senha">Confirmar Senha:</label>
+                <br>
+                <input type="password" name="senha" id="senha" size="35" maxlength="30" minlength="5" placeholder="Confirme sua senha" required>
+            </div>
         </div>
         <br>
         <div>
@@ -44,12 +54,28 @@
         <div>
             <label for="arquivo">Escolha um arquivo: </label>
             <br>
-            <input type="file" name="arquivo" id="arquivo">
+            <input type="file" name="arquivo" id="arquivo" accept="image/png">
         </div>
         <br>
         <div>
-            <input type="submit" value="Enviar" required> <!--Ou usar a tag <button type="submit">Texto</button> (mais comum)-->
+            <label for="">Escolha uma opção: </label>
+            <br>
+            <select name="opc" id="opc">
+                <option value="tsi">TSI</option>
+                <option value="tme">TME</option>
+                <option value="inf">Informática</option>
+                <option value="adm">Administração</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar" required> 
             <input type="submit" value="Apagar" required>
+            <!--Ou usar a tag <button type="submit">Texto</button> (mais comum)-->
         </div>
 
     </form>
