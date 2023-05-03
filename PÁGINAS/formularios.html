@@ -9,12 +9,49 @@
 <body>
     <h1>Formulário</h1>
     <form action="" method="">
-        <label for="nome_usuario">Nome: </label> <!-- Label insere um rótulo-->
-        <input type="text" name="nome_usuario" id="nome_usuario" size="35" maxlength="20" minlength="3"> <!-- text é um campo de entrada de texto-->
+        <div>
+            <label for="nome_usuario">Nome: </label> <!-- Label insere um rótulo-->
+            <input type="text" name="nome_usuario" id="nome_usuario" size="35" maxlength="20" minlength="3" required> <!-- text é um campo de entrada de texto-->
+        </div>
         <br>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" size="35" maxlength="20" minlength="5" required>
+        </div>
         <br>
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" id="senha" size="35" maxlength="20" minlength="5">
+        <div>
+            <label for="esporte">Hobbies:   </label>
+            <br>
+            <input type="checkbox" name="esporte" id="esporte">
+            <label for="esporte">Esporte</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" name="leitura" id="leitura">
+            <label for="leitura">Leitura</label>
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha o Tipo: </label>
+            <br>
+            <input type="radio" name="tipo" id="adulto" checked>
+            <label for="adulto">Adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescente">Adolescente</label>
+            <input type="radio" name="tipo" id="crianca">
+            <label for="crianca">Criança</label>
+        </div>
+        <br>
+        <div>
+            <label for="arquivo">Escolha um arquivo: </label>
+            <br>
+            <input type="file" name="arquivo" id="arquivo">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar" required> <!--Ou usar a tag <button type="submit">Texto</button> (mais comum)-->
+            <input type="submit" value="Apagar" required>
+        </div>
+
     </form>
 
 
