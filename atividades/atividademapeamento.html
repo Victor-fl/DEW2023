@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeamento</title>
+</head>
+<body>
+    <header>
+        <h1>Mapeamento de Imagem</h1>
+    </header>
+    <section>
+        <hr>
+            <figure>
+                <img src="../imagens/poligonos.png" alt="Imagem de polígonos" usemap="#poli">
+                <figcaption>Passe o mouse sobre as imagens para ir para suas páginas</figcaption>
+            </figure>
+            <map name="poli">
+                <area shape="circle" coords="60,85,32,98" href="https://pt.wikipedia.org/wiki/C%C3%ADrculo" alt="Circulo" target="alvo" title="Circulo">
+                <area shape="poly" coords="117,115,150,52,182,116" href="https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo" alt="Triangulo" target="alvo" title="Triangulo">
+                <area shape="rect" coords="206,52,273,116" href="https://pt.wikipedia.org/wiki/Ret%C3%A2ngulo" alt="Retangulo" target="alvo" title="Retangulo">
+            </map>
+        </section>
+        <iframe src="" frameborder="0" name="alvo" width="1000" height="500"></iframe>
+
+        <a href="../index.html"><img src="../imagens/seta.png" alt="" width="50"></a>
+</body>
+</html>

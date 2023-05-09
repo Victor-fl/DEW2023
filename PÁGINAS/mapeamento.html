@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeamento de Imagem</title>
+</head>
+<body>
+    <header>
+        <h1>TAG map</h1>
+    </header>
+    <section>
+        <p>Permite mapear uma imagem tornando áreas da imagem clicaveis</p>
+        <hr>
+        <figure>
+            <img src="../imagens/rs.jpg" alt="Imagem das redes sociais" usemap="#rs">
+            <figcaption>Passe o mouse sobre as imagens para ir para suas páginas</figcaption>
+        </figure>
+        <map name="rs">
+            <area shape="rect" coords="1,1,172,357" href="../redes sociais/face.html" alt="Facebook" target="alvo" title="Facebook">
+            <area shape="poly" coords="228,150,313,198,229,248" href="../redes sociais/youtube.html" alt="Youtube" target="alvo" title="Youtube">
+            <area shape="rect" coords="362,2,532,359" href="../redes sociais/tiktok.html" alt="TikTok" target="alvo" title="TikTok">
+            <area shape="rect" coords="536,4,714,358" href="../redes sociais/insta.html" alt="Instagram" target="alvo" title="Instagram">
+            <area shape="rect" coords="717,6,896,359" href="../redes sociais/google.html" alt="Google" target="alvo" title="Google">
+            <area shape="circle" coords="999,196,54,1" href="../redes sociais/whats.html" alt="Whatsapp" target="alvo" title="WhatsApp">
+        </map>
+    </section>
+    <iframe src="" frameborder="0" name="alvo" width="1000" height="500"></iframe>
+
+    
+    <a href="../index.html"><img src="../imagens/seta.png" alt="" width="50"></a>
+</body>
+</html>
