@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*margin e padding serve para tirar o espaçamento da margem ate os textos*/
+.cor-fundo
+{
+background-color: aqua;
+width: 50%;
+height: 300px;
+}
+
+.item 
+{
+width: 100px;
+height: 100px;
+display: inline-block;
+}
+.item-1 
+{
+background-color: red;
+}
+.item-2 
+{
+background-color: blue;
+}
+.item-3 
+{
+background-color: green;
+}
