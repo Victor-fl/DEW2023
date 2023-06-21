@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img 
+{
+position: fixed;
+bottom: 550px;
+right: 770px;
+width: 150px;
+}
+
+.texto 
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: medium;
+position: relative;
+width: 500px;
+}
