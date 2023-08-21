@@ -140,6 +140,22 @@ body
    animation-duration: 13s;
    animation-fill-mode: forwards;
 }
+#t1 
+{
+    position: absolute;
+    left: 43%;
+    top: 10px;
+    animation-name: t1;
+    animation-duration: 13s;
+}
+#t2 
+{
+    position: absolute;
+    left: 46%;
+    top: 50px;
+    animation-name: t1;
+    animation-duration: 13s;
+}
 @keyframes bola
 {
     0%   {background-color:rgb(98, 0, 255); left:90px; top:90px;}
@@ -226,3 +242,8 @@ body
 100% {background-color: white;}
 }
 
+@keyframes t1
+{
+    0% {color: blueviolet;}
+    100% {color: black;}
+}
