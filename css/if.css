@@ -152,10 +152,19 @@ body
 {
     position: absolute;
     left: 46%;
-    top: 50px;
+    top: 70px;
     animation-name: t1;
     animation-duration: 13s;
 }
+#t3
+{
+    position: absolute;
+    left: 42%;
+    top: 40px;
+    animation-name: t1;
+    animation-duration: 13s;
+}
+
 @keyframes bola
 {
     0%   {background-color:rgb(98, 0, 255); left:90px; top:90px;}
@@ -238,8 +247,8 @@ body
 }
 @keyframes body
 {
-0%  {background-color: blueviolet;}
-100% {background-color: white;}
+0%  {background-color: white;}
+100% {background-color: blueviolet;}
 }
 
 @keyframes t1
@@ -247,3 +256,4 @@ body
     0% {color: blueviolet;}
     100% {color: black;}
 }
+
