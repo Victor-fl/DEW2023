@@ -153,7 +153,7 @@ body
     position: absolute;
     left: 46%;
     top: 70px;
-    animation-name: t1;
+    animation-name: t2;
     animation-duration: 13s;
 }
 #t3
@@ -161,7 +161,7 @@ body
     position: absolute;
     left: 42%;
     top: 40px;
-    animation-name: t1;
+    animation-name: t3;
     animation-duration: 13s;
 }
 
@@ -203,7 +203,7 @@ body
     25%  {background-color:rgb(255, 0, 234); left:93%; top:0px;}
     50%  {background-color:rgba(255, 17, 0, 0.164); left:1%; top:90%;}
     75%  {background-color:rgb(255, 0, 106); left:0px; top: 0px;}
-    100% {background-color:green; left: 48.5%; top:200px;}
+    100% {background-color:green; left: 49%; top:200px;}
 }
 @keyframes q5
 {
@@ -211,7 +211,7 @@ body
     25%  {background-color:rgb(255, 0, 140); left:93%; top:0px;}
     50%  {background-color:rgb(0, 225, 255); left:1%; top:90%;}
     75%  {background-color:rgb(145, 255, 0); left:0px; top: 0px;}
-    100% {background-color:green; left: 48.5%; top:295px;}
+    100% {background-color:green; left: 49%; top:295px;}
 }
 @keyframes q6
 {
@@ -219,7 +219,7 @@ body
     25%  {background-color:rgb(0, 47, 255); left:93%; top:0px;}
     50%  {background-color:rgb(255, 0, 13); left:1%; top:90%;}
     75%  {background-color:rgb(0, 255, 21); left:0px; top: 0px;}
-    100% {background-color:green; left: 48.5%; top:390px;}
+    100% {background-color:green; left: 49%; top:390px;}
 }
 @keyframes q7
 {
@@ -227,7 +227,7 @@ body
     25%  {background-color:rgb(255, 0, 0); left:93%; top:0px;}
     50%  {background-color:rgb(255, 8, 0); left:1%; top:90%;}
     75%  {background-color:red; left:0px; top: 0px;}
-    100% {background-color:green; left: 48.5%; top:485px;}
+    100% {background-color:green; left: 49%; top:485px;}
 }
 @keyframes q8
 {
@@ -235,7 +235,7 @@ body
     25%  {background-color:rgb(55, 0, 255); left:93%; top:0px;}
     50%  {background-color:rgb(115, 255, 0); left:1%; top:90%;}
     75%  {background-color:rgba(255, 0, 221, 0.37); left:0px; top: 0px;}
-    100% {background-color:green; left: 54.95%; top:200px;}
+    100% {background-color:green; left: 56%; top:200px;}
 }
 @keyframes q9
 {
@@ -243,17 +243,29 @@ body
     25%  {background-color:yellow; left:93%; top:0px;}
     50%  {background-color:blue; left:1%; top:90%;}
     75%  {background-color:red; left:0px; top: 0px;}
-    100% {background-color:green; left: 54.95%; top:390px;}
+    100% {background-color:green; left: 56%; top:390px;}
 }
 @keyframes body
 {
-0%  {background-color: white;}
-100% {background-color: blueviolet;}
+0%  {background-color: blueviolet;}
+100% {background-color: white;}
 }
 
 @keyframes t1
 {
-    0% {color: blueviolet;}
+    0% {color:  blueviolet;}
+    100% {color: black;}
+}
+
+@keyframes t2
+{
+    0% {color:  blueviolet;}
+    100% {color: black;}
+}
+
+@keyframes t3
+{
+    0% {color:  blueviolet;}
     100% {color: black;}
 }
 
