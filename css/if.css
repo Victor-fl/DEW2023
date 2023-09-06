@@ -171,6 +171,10 @@ body
     25%  {background-color:rgb(0, 255, 128); left:93%; top:0px;}
     50%  {background-color:rgb(229, 255, 0); left:1%; top:90%;}
     75%  {background-color:rgb(9, 0, 128); left:0px; top: 0px;}
+    85%  {background-color:red; left: 42%; top:200px;}
+    90%  {background-color:red; left: 42%; top:180px;}
+    95%  {background-color:red; left: 42%; top:200px;}
+    97%  {background-color:red; left: 42%; top:170px;}
     100% {background-color:red; left: 42%; top:200px;}
 }
 @keyframes q1
