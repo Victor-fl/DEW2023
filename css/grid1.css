@@ -1,0 +1,49 @@
+*
+{
+    padding: 0;
+}
+.lb
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.logo
+{
+    grid-column-start: 1;
+    border: solid black 4px;
+}
+.banner
+{
+    grid-column-start: 2;
+    border: solid black 4px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.menu1
+{
+    border: solid black 4px;
+    height: 650px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.menu2
+{
+    border: 4px solid black;
+    margin-left: 16px;
+    text-align: center;
+    margin-right: 40px;
+}
+.ap
+{
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 40px;
+}
