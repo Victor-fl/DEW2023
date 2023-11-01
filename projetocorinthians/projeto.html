@@ -11,39 +11,47 @@
     <link rel="stylesheet" href="projeto.css">
 </head>
 <body>
-    <div class="dvslogan">
-    <h1 class="slogan"><span class="bet2">TORNE-SE</span> UM LOUCO <span class="bet2">NO MEIO </span> DESSE <span class="bet2">BANDO</span></h1>
-    </div>
-    
-    <h1 class="fonte2">Corinthians <span class="bet">Bet</span> </h1> 
-    <h1 class="fonte1">CRIE SUA CONTA</h1>
-<div class="containerlog">
-    <form action="formulario.php" method="POST">
-        <div>
-            <label id="branco"for="nome_usuario">Nome: </label>
-            <br> <!-- Label insere um rótulo-->
-            <input type="text" name="nome_usuario" id="nome_usuario" size="35" maxlength="30" minlength="3" placeholder="Digite seu nome" required> <!-- text é um campo de entrada de texto-->
+   <div id="pai">
+    <div id="fi"> 
+        <div class="dvslogan">
+        <h1 class="slogan"><span class="bet2">TORNE-SE</span> UM LOUCO <span class="bet2">NO MEIO </span> DESSE <span class="bet2">BANDO</span></h1>
         </div>
-        <br>
-        <div>
-            <label id="branco" for="senha">Senha:</label>
-            <br>
-            <input type="password" name="senha" id="senha" size="35" maxlength="30" minlength="5" placeholder="Digite sua senha" required>
-        </div>
-        <br>
-        <div>
-            <div>
-                <label id="branco" for="senha">Confirmar Senha:</label>
+        
+        <h1 class="fonte2">Corinthians <span class="bet">Bet</span> </h1> 
+        <h1 class="fonte1">CRIE SUA CONTA</h1>
+        <div class="containerlog">
+            <form action="formulario.php" method="POST">
+                <div>
+                    <label id="branco"for="nome_usuario">Nome: </label>
+                    <br> <!-- Label insere um rótulo-->
+                    <input type="text" name="nome_usuario" id="nome_usuario" size="35" maxlength="30" minlength="3" placeholder="Digite seu nome" required> <!-- text é um campo de entrada de texto-->
+                </div>
                 <br>
-                <input type="password" name="senha" id="senha" size="35" maxlength="30" minlength="5" placeholder="Confirme sua senha" required>
-            </div>
-        </div>
-        <div >
-            <input id="buttom" type="submit" value="Enviar" required> 
-            <input id="buttom" type="submit" value="Apagar" required>
-            <!--Ou usar a tag <button type="submit">Texto</button> (mais comum)-->
-        </div>
-</div>
-<div></div>
+                <div>
+                    <label id="branco" for="senha">Senha:</label>
+                    <br>
+                    <input type="password" name="senha" id="senha" size="35" maxlength="30" minlength="5" placeholder="Digite sua senha" required>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <label id="branco" for="senha">Confirmar Senha:</label>
+                        <br>
+                        <input type="password" name="senha" id="senha" size="35" maxlength="30" minlength="5" placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
+                <div >
+                    <input id="buttom" type="submit" value="Enviar" required> 
+                    <input id="buttom" type="submit" value="Apagar" required>
+                    <!--Ou usar a tag <button type="submit">Texto</button> (mais comum)-->
+                </div>
+        </div> 
+    </div>
+    <div id="b1"></div>
+    <div id="b2"></div>
+    <div id="b3"></div>
+    <div id="b4"></div>
+ </div>   
+<div id="par"></div>
 </body>
 </html>
