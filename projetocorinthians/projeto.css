@@ -8,7 +8,7 @@ body
     background-image: url('banner2.jpg');
     background-size: 100%; 
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    
 }
 .containerlog
 {
@@ -26,7 +26,7 @@ body
     margin-top: 80px;
     margin-left: 19.2%;
     color: aliceblue;
-    font-family: fantasy; 
+    font-family: fantasy;    
 }
 .bet
 {
@@ -75,8 +75,113 @@ body
     transition: 0.5s;
     opacity: 0.7;
 }
-#pr{
+
+#papai
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    height: 60px;
-    background-color: darkblue;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 27%;
+}
+#fifi1
+{
+    border: 5px solid black;
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+}
+#fifi1:hover 
+{
+    background-color: brown;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+#fifi2
+{
+    border: 5px solid black;
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+    
+}
+#fifi2:hover 
+{
+    background-color: brown;
+    transition: 0.5s;
+    opacity: 0.7;
+
+}
+#fifi3
+{
+    border: 5px solid black;
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+}
+#fifi3:hover 
+{
+    background-color: brown;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+#txt
+{
+    margin-top: 17%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    
+}
+#txt1
+{
+    font-size: small;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#strongcor
+{
+    color: brown;
+}
+#txtprin
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#divtxt
+{
+    position: absolute;
+    top: 650px;
+    left: 18%;
+    
+}
+#txtprin2
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#if
+{
+    position: absolute;
+    top: 80%;
+    left: 0.1%;
+}
+#if2
+{
+    position: absolute;
+    top: 80%;
+    right: 0.1%;
 }
