@@ -140,8 +140,17 @@ body
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    color: black;
     
+    
+}
+.txt
+{
+    margin-top: 17%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
 }
 #txt1
 {
