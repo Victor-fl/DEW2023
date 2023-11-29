@@ -1,0 +1,139 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+img
+{
+    position: absolute;
+    left: 47.7%;
+    top: 46%;
+    width: 100px;
+    border-radius: 100%;
+}
+.pai
+{
+      display: grid;
+      grid-template-areas: " di1 di2"
+                           " di3 di4";
+      width: 100%;
+      height: 800px;
+}
+.d1
+{
+  grid-area: di1;
+  background-color: brown;
+}
+.d2
+{
+  grid-area: di2;
+  background-color: black;
+}
+.d3
+{
+  grid-area: di3;
+  background-color: black;
+}
+.d4
+{
+  grid-area: di4;
+  background-color: brown;
+}
+.txt
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.txt1
+{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.txt12
+{
+    color: brown;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.txt2
+{
+    color: brown;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.botao1
+{
+    border: 5px solid black;
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+    position: absolute;
+    top: 200px;
+    left: 330px;
+}
+.botao2
+{
+    border: 5px solid black;
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+    position: absolute;
+    top: 200px;
+    right: 330px;
+}
+.botao3
+{
+    border: 5px solid black;
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+    position: absolute;
+    bottom: 100px;
+    left: 340px;
+}
+.botao4
+{
+    border: 5px solid black;
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+    position: absolute;
+    right: 330px;
+    bottom: 100px;
+}
+.botao1:hover 
+{
+    background-color: brown;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.botao2:hover 
+{
+    background-color: brown;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.botao3:hover 
+{
+    background-color: brown;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.botao4:hover 
+{
+    background-color: brown;
+    transition: 0.5s;
+    opacity: 0.7;
+}

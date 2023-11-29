@@ -1,8 +1,19 @@
 img
 {
     position: absolute;
-    left: 29%;
-    top: 11%;
-    width: 600px;
-    height: 600px;
+    left: 37%;
+    top: 25%;
+    border-radius: 1%;
+    width: 400px;
+    height: 400px;
+}
+body
+{
+    background-color: black;
+}
+.tit
+{
+    font-family: fantasy;
+    color: brown;
+    text-align: center;
 }
